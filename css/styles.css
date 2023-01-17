@@ -240,7 +240,7 @@ main .container {
 
   border-radius: 0.75rem;
   padding: 2.5rem 2rem;
-  box-shadow: 0px 0px 15px -8px hsla(192, 100%, 9%, 0.8);
+  box-shadow: 0px 0px 15px -8px hsla(192, 100%, 9%, 0.9);
 }
 
 .feature__img {
