@@ -191,6 +191,9 @@ header .container {
   header {
     background-image: url('../images/bg-hero-desktop.svg');
   }
+  header .container {
+    padding: 3rem 1.25rem 4rem 1.25rem;
+  }
   .brand-logo {
     width: 190px;
   }
