@@ -375,33 +375,30 @@ footer .company-content {
 
 .social__icon {
   display: inline-block;
-  padding: 9px;
+  padding: 0.563rem;
   border: 1px solid var(--clr-white);
   border-radius: 50%;
   cursor: pointer;
   transition-duration: 200ms;
+  line-height: 1;
 }
-
-/* IcoMoon CSS */
-.icon {
-  display: block;
-  width: 1.125em;
-  height: 1.125em;
-  stroke-width: 0;
-  stroke: currentColor;
-  fill: var(--clr-white);
-  transition-duration: 200ms;
-}
-
-.social__icon:hover .icon,
-.social__icon:focus .icon {
-  fill: var(--clr-pink);  
-}
-
 .social__icon:hover,
 .social__icon:focus {
   border-color: var(--clr-pink);  
 }
+
+/* Referencing Icofont fonts + CSS */
+.icofont {
+  color: var(--clr-white);
+  font-size: 1.25rem;
+  transition-duration: 200ms;
+}
+.social__icon:hover .icofont,
+.social__icon:focus .icofont {
+  color: var(--clr-pink);
+}
+
+
 
 .copyright {
   color: var(--clr-white);
